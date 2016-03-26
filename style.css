@@ -1,16 +1,15 @@
-html{
-	
+img{
+	padding-top: 250px;
 }
 
 body{
 	background:
-	url(images/city.png) fixed no-repeat center bottom,
-	url(images/moon.png) no-repeat left top,
-	url(images/stars.png) fixed 10px 10px,
-	url(images/gradient.gif) fixed repeat-x left top;
 
+	url(images/moon.png) no-repeat left top,
+	url(images/city.png)  no-repeat center bottom,
+	url(images/stars.png) no-repeat top,
+	url(images/gradient.gif) fixed repeat-x left top;
 	margin:0;
-	padding-top:40px;
 	text-align:center;	
 }
 
@@ -19,15 +18,12 @@ h1{
 	color: #FFFFFF;
 }
 
-
-
 .box {
 
 	text-align: left;
 	padding-left: 350px;
-
+	padding-bottom: 350px;
 }
-
 .questions{
 	border-left-color:	#00008B;
 	vertical-align:bottom;
@@ -38,7 +34,6 @@ h1{
 	width:600px;
 	height: 70px;
 }
-
 .answers {
 	border-left-color:	#8B3A62;
 	vertical-align:bottom;
